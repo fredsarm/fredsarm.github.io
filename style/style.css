@@ -7,16 +7,17 @@ body {
     margin: 0;
 }
 header{
-    background-color: #2e2f38;
+    background-color: #565768;
     margin: 0;
     min-width: 360px;
-
+    text-align: left;
 }
 footer{
-    background-color: #2e2f38;
+    background-color: #565768;
     padding: 0;
     margin: 0;
     min-width: 360px;
+    text-align: left;
 }
 #logo {
     font-family: 'Turret Road', cursive;
@@ -31,6 +32,7 @@ footer{
 nav {
     padding: 1.5rem 0 1.5rem 2rem;
     display: inline-block;
+    /*background-color: aqua;*/
 }
 nav a {
     font-family: 'Gruppo', cursive;
@@ -41,7 +43,7 @@ nav a {
     text-decoration: none;
 }
 #barraEsquerda {
-/*  background-color: red;*/
+    /*background-color: red;*/
     width: 20%;
 /*  float: left;*/
     display: inline-block;
@@ -55,8 +57,9 @@ article {
     padding: 0 0 0 0;
     max-width: 40rem;
     min-width: 40rem;
-/*    background-color: rgb(25, 0, 255);*/
-    margin: 0;
+    /*background-color: rgb(25, 0, 255);*/
+    margin: 0 0 0 0;
+    border-left: 1px solid rgb(255, 255, 255);
 align-items: center;
 }
 h1, h2, h3 {
@@ -76,14 +79,13 @@ h2 {
     margin-top: 1rem;
     padding-left: 4rem;
     border: 0;
-/*    background-color: fuchsia; */
 }
 h3 {
     font-size: 1rem;
     text-align: left;
     margin-top: 1rem;
     border: 0;
-/*    background-color: fuchsia; */
+/*    background-color: fuchsia;*/ 
 }
 p {
     font-family: 'Quicksand', sans-serif;
@@ -95,19 +97,25 @@ p {
 }
   #fredsphoto {
     float:right;
-    display: block;
-/*    background-color: rgb(2, 055, 18);*/
     padding: 0;
-    margin: 0.7rem;
+    margin-left: 0.7rem;
     border:1px solid rgb(70, 70, 70);  
-    width: 30%;
-}   
+    height: 15rem;
+} 
 main {
-    text-align: center;    
+    text-align: left;    
     padding: 3rem 0 2rem 0;
+/*background-color: darkblue;*/
 }
 
 /*Exceções específicas*/
 p:last-child {
     padding: 0 1rem 1rem 1rem;
   }
+#barraEsquerda h3 {
+    text-align: center;
+}
+.socialmediaicon {
+ width:3rem;
+ opacity: 60%;
+}
