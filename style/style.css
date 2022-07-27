@@ -9,15 +9,31 @@ body {
 header{
     background-color: #565768;
     margin: 0;
-    min-width: 360px;
     text-align: left;
+    min-width: 100%;
+    position:fixed;
+    top: 0;
+    height: 5rem;
+    z-index: 10;
+}
+main {
+    text-align: left;    
+    padding: 3rem 0 2rem 0;
+    display: block;
+    position: relative;
+    top:2.3rem;
+    /*background-color: darkblue;*/
 }
 footer{
-    background-color: #565768;
-    padding: 0;
+    background-color: #40414d;
+    /*padding: 1rem;*/
     margin: 0;
-    min-width: 360px;
+    min-width: 100%;
     text-align: left;
+    position:fixed;
+    bottom: 0;
+    z-index: 10;
+    height: 5.3rem;    
 }
 #logo {
     font-family: 'Turret Road', cursive;
@@ -63,10 +79,11 @@ article {
 align-items: center;
 }
 h1, h2, h3 {
-    font-family: 'Gruppo', cursive;   
+/*    font-family: 'Gruppo', cursive;*/   
+    font-family: 'Quicksand', sans-serif;
 }
 h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-align:center;
     margin-top: 1rem;
     padding: 0;
@@ -98,15 +115,10 @@ p {
   #fredsphoto {
     float:right;
     padding: 0;
-    margin-left: 0.7rem;
-    border:1px solid rgb(70, 70, 70);  
-    height: 15rem;
+    margin: 0 1rem 0 1rem;
+    border:1px solid rgb(72, 71, 71);  
+    height: 10rem;
 } 
-main {
-    text-align: left;    
-    padding: 3rem 0 2rem 0;
-/*background-color: darkblue;*/
-}
 
 /*Exceções específicas*/
 p:last-child {
@@ -116,6 +128,6 @@ p:last-child {
     text-align: center;
 }
 .socialmediaicon {
- width:3rem;
- opacity: 60%;
+ width:2.5rem;
+ opacity: 35%;
 }
