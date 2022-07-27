@@ -7,7 +7,13 @@ body {
     margin: 0;
 }
 header{
-    background-color: #5d5f6e;
+    background-color: #2e2f38;
+    margin: 0;
+    min-width: 360px;
+
+}
+footer{
+    background-color: #2e2f38;
     padding: 0;
     margin: 0;
     min-width: 360px;
@@ -35,9 +41,9 @@ nav a {
     text-decoration: none;
 }
 #barraEsquerda {
-/*    background-color: red; */
+/*  background-color: red;*/
     width: 20%;
-/*    float: left;*/
+/*  float: left;*/
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -49,11 +55,11 @@ article {
     padding: 0 0 0 0;
     max-width: 40rem;
     min-width: 40rem;
-/*    background-color: rgb(25, 0, 255); */
+/*    background-color: rgb(25, 0, 255);*/
     margin: 0;
 align-items: center;
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Gruppo', cursive;   
 }
 h1 {
@@ -72,6 +78,13 @@ h2 {
     border: 0;
 /*    background-color: fuchsia; */
 }
+h3 {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+    border: 0;
+/*    background-color: fuchsia; */
+}
 p {
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
@@ -80,15 +93,21 @@ p {
     margin: 1rem 0 0 0;
     border: 0;
 }
-#fredsphoto {
+  #fredsphoto {
     float:right;
     display: block;
 /*    background-color: rgb(2, 055, 18);*/
     padding: 0;
     margin: 0.7rem;
-    border: 0 0 0 0;  
-    width: 50%;
+    border:1px solid rgb(70, 70, 70);  
+    width: 30%;
 }   
 main {
     text-align: center;    
+    padding: 3rem 0 2rem 0;
 }
+
+/*Exceções específicas*/
+p:last-child {
+    padding: 0 1rem 1rem 1rem;
+  }
