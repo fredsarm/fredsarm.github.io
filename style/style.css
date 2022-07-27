@@ -118,6 +118,7 @@ p {
     margin: 0 1rem 0 1rem;
     border:1px solid rgb(72, 71, 71);  
     height: 10rem;
+    background-color: rgb(110, 93, 71);
 } 
 
 /*Exceções específicas*/
