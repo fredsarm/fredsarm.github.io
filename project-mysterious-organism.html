@@ -23,7 +23,31 @@
       <h3><a href="report.html">Report</a></h3>
     </div>
     <article>
-      <h1>Misterious Organism</h1> 
+      <h1>Mysterious Organism</h1>
+      <img class="imgarticle" src="media/dna.png" alt="Ilustration of a dna"> 
+      <p>Starting from a hypothetical situation of a discovery of a mysterious organism at the bottom of the ocean near hydrothermal vents, this software creatse objects that simulate the DNA of P. aequor for the research team to study.
+      <h2>The hypothetical context</h2>
+      <p>I'm part of a research team that has found a new organism, Pila aequor (P. aequor), and finds that it is only comprised of 15 DNA bases. The small DNA samples and frequency at which it mutates due to the hydrothermal vents make P. aequor an interesting specimen to study. However, P. aequor cannot survive above sea level and locating P. aequor in the deep sea is difficult and expensive.</p>
+      <h2>The code</h2>
+      <p>DNA is comprised of four bases (Adenine, Thymine, Cytosine, and Guanine). When <code>returnRandBase()</code> is called, it will randomly select a base and return the base ('A','T','C', or 'G'). There are two helper functions: <code>returnRandBase()</code> and <code>mockUpStrand()</code>. <code>mockUpStrand()</code> is used to generate an array containing 15 bases to represent a single DNA strand with 15 bases.</p> 
+      <p>I created a factory function p<code>AequorFactory()</code> that has two parameters:</p>
+      <ol>
+        <li>The first parameter is a number (no two organisms should have the same number).</li>
+        <li>The second parameter is an array of 15 DNA bases. <code>pAequorFactory()</code> return an object that contains the properties specimenNum and dna that correspond to the parameters provided.</li>
+      </ol>
+      <p>The the program simulate P. aequor‘s high rate of mutation (change in its DNA). To do that, in <code>pAequorFactory()</code>‘s returned object, I added the method <code>.mutate()</code>.</p>
+      <p><code>.mutate()</code> is responsible for randomly selecting a base in the object’s dna property and changing the current base to a different base. Then <code>.mutate()</code> returns the object’s dna.</p>
+      <p>Then I added a new method (<code>.compareDNA()</code>) to the returned object of the factory function. <code>.compareDNA()</code> has one parameter, another pAequor object.</p>
+      <p>The behavior of <code>.compareDNA()</code> is to compare the current pAequor‘s .dna with the passed in pAequor‘s .dna and compute how many bases are identical and in the same locations. <code>.compareDNA()</code> does not return anything, but prints a message that states the percentage of DNA the two objects have in common. .specimenNum identifies which pAequor objects are being compared.</p>
+      <p>For example:</p>
+      <p>ex1 = ['A', 'C', 'T', 'G']</p>
+      <p>ex2 = ['C', 'A', 'T', 'T']</p>
+      <p>ex1 and ex2 only have the 3rd element in common ('T') and therefore, have 25% (1/4) of their DNA in common.</p>
+      <p>I added another method <code>.willLikelySurvive()</code>.</p>
+      <p><code>.willLikelySurvive()</code> returns true if the object’s .dna array contains at least 60% 'C' or 'G' bases. Otherwise, <code>.willLikelySurvive()</code> returns false.</p>
+      <p>Finaly the program create 30 instances of pAequor that can survive in their natural environment and stores these instances in an array for the team to study later.</p> 
+      <p>See the code at <a href="https://github.com/fredsarm/challenge-project-mysterious-organism-v2">my GitHub</a></p>
+
     </article>
   </main>
   <footer>

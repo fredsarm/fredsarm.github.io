@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Quicksand:wght@300;400;500;600;700&family=Turret+Road:wght@700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Quicksand:wght@300;400;500;600;700&family=Turret+Road:wght@700&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Gruppo&family=Quicksand:wght@300;400;500;600;700&family=Turret+Road:wght@700&display=swap');
+
+
+
 body {
     margin: 0;
     background-color: #272727;
@@ -41,7 +47,7 @@ nav a {
 }
 a {
     text-decoration: none;
-    color: #e6e6e6;
+    color: #b6cce2;
 }
 a:hover {
     color: rgb(0, 229, 255);
@@ -51,11 +57,11 @@ main {
     position:relative;
     padding: 0.5rem;
     text-align: left;
-    
-    font-size: 0px;
+    font-size: 0px; /* PS. This is to remove gap between barraEsquerda and article */
     top: 4.5rem;
     bottom: 19rem;
 }
+
 #barraEsquerda {
     width: 13rem;
     display: inline-block;
@@ -87,7 +93,8 @@ article {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 6rem;
-    max-width: 40rem;
+    max-width: 30rem;
+    min-width: 20rem;;
     margin: 0 0 0 0;
     align-items: center;
     background-color: rgb(27, 27, 27);
@@ -117,12 +124,12 @@ h2 {
     height: 6rem;
     background-color: rgb(110, 93, 71);
 } 
-p {
+p, li {
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
     padding: 0 0 0 0;
     font-size: 0.9rem;
-    margin: 0.5rem 0 0 0;
+    margin: 0.5rem 0 0.5rem 0;
     border: 0;
 }
 footer{
@@ -143,8 +150,21 @@ footer{
     opacity: 35%;
    }
 
+.imgarticle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
 
-/* --------------------------------------------------------
+code {
+    font-size: 1.15rem;
+    font-family: 'cutive Mono';
+}
+
+
+
+    
+    /* --------------------------------------------------------
     colors for testing 
     remove the comment below for testing each html element 
    -------------------------------------------------------- */
