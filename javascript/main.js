@@ -1,19 +1,20 @@
 function fade(id,interval) {
     let i = 0;
-    let embArt = document.getElementById(id);
-    embArt.style.opacity = 0;
+    let elem = document.getElementById(id);
+    elem.style.opacity = 0;
     let k = window.setInterval(function() {
     if (i >= 10) {
         clearInterval(k);
     } else {
-        embArt.style.opacity = i / 10;
+        elem.style.opacity = i / 10;
         i++;
     }
     }, interval);
 };
 window.onload = function () { 
     fade("tudo",200);
-    fade("article-embeded",30);
+    fade("article-embeded",30)
+
     let embedSources = {
         home: {
             id:"logo",

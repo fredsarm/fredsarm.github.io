@@ -17,7 +17,10 @@ body {
     border: 0;
     margin: 0;
     width: 100%;
-/*    opacity: 0; /*javascript performs a fadein*/
+    /*opacity: 0; /*javascript performs a fadein*/
+}
+#article-embeded{
+    opacity: 100%;
 }
 h1, h2, h3 {
     font-family: 'Gruppo', cursive;
@@ -163,7 +166,6 @@ embed {
     min-width: 23rem;
     max-width: 33rem;
     margin-bottom: 1rem;
-    opacity: 0; /*javascript performs a fadein*/
 }
 article {
     display: block;
