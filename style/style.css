@@ -17,10 +17,7 @@ body {
     border: 0;
     margin: 0;
     width: 100%;
-    /*opacity: 0; /*javascript performs a fadein*/
-}
-#article-embeded{
-    opacity: 100%;
+/*    opacity: 0.1; /*javascript performs a fadein*/
 }
 h1, h2, h3 {
     font-family: 'Gruppo', cursive;
