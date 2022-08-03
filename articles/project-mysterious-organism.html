@@ -4,33 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="../style/style.css">
   <title>Frederico Sarmento's Portfolio</title>
+  <script src="../javascript/fadein.js"></script>
 </head>
 <body>
-  <header>
-    <a id="logo" href="index.html">fredsarm.dev</a>
-    <nav>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Get&nbspin&nbspContact</a>
-    </nav>
-  </header>
-  <main>
-    <div id="barraEsquerda"> 
-      <h2>About&nbspthis&nbspportifolio</h2>
-      <h3><a href="technologies.html">Technologies</a></h3>
-      <h3><a href="report.html">Report</a></h3>
-    </div>
-    <article>
-      <h1>Mysterious Organism</h1>
+  <article id="embeded-article">
+    <h1>Mysterious Organism</h1>
       <img class="imgarticle" src="media/dna.png" alt="Ilustration of a dna"> 
       <p>Starting from a hypothetical situation of a discovery of a mysterious organism at the bottom of the ocean near hydrothermal vents, this software creatse objects that simulate the DNA of P. aequor for the research team to study.
       <h2>The hypothetical context</h2>
       <p>I'm part of a research team that has found a new organism, Pila aequor (P. aequor), and finds that it is only comprised of 15 DNA bases. The small DNA samples and frequency at which it mutates due to the hydrothermal vents make P. aequor an interesting specimen to study. However, P. aequor cannot survive above sea level and locating P. aequor in the deep sea is difficult and expensive.</p>
       <h2>The code</h2>
       <p>DNA is comprised of four bases (Adenine, Thymine, Cytosine, and Guanine). When <code>returnRandBase()</code> is called, it will randomly select a base and return the base ('A','T','C', or 'G'). There are two helper functions: <code>returnRandBase()</code> and <code>mockUpStrand()</code>. <code>mockUpStrand()</code> is used to generate an array containing 15 bases to represent a single DNA strand with 15 bases.</p> 
-      <p>I created a factory function p<code>AequorFactory()</code> that has two parameters:</p>
+      <p>I created a factory function <code>pAequorFactory()</code> that has two parameters:</p>
       <ol>
         <li>The first parameter is a number (no two organisms should have the same number).</li>
         <li>The second parameter is an array of 15 DNA bases. <code>pAequorFactory()</code> return an object that contains the properties specimenNum and dna that correspond to the parameters provided.</li>
@@ -49,15 +36,5 @@
       <p>See the code at <a href="https://github.com/fredsarm/challenge-project-mysterious-organism-v2">my GitHub</a></p>
 
     </article>
-  </main>
-  <footer>
-    <nav>
-      <a href="https://www.linkedin.com/in/fredsarm/"><img class="socialmediaicon" src="media/linkedinicon.png" alt="Linkedin icon"></a>
-      <a href="https://www.twitter.com/fredsarm/"><img class="socialmediaicon" src="media/twittericon.png" alt="Twitter icon"></a>
-      <a href="https://www.facebook.com/fredsarm.dev/"><img class="socialmediaicon" src="media/faceicon.png" alt="Facebook icon"></a>
-      <a href="https://www.github.com/fredsarm/"><img class="socialmediaicon" src="media/githubicon.png" alt="GitHub icon"></a>
-      <a href="https://www.YouTube.com/fredsarm.js/"><img class="socialmediaicon" src="media/youtubeicon.png" alt="YouTube icon"></a>
-      <a href="https://www.Discord.com/fredsarm/"><img class="socialmediaicon" src="media/discordicon.png" alt="Discord icon"></a>
-  </footer>
 </body>
 </html>
