@@ -13,7 +13,6 @@ function fade(id,interval) {
 };
 window.onload = function () { 
     fade("tudo",20);
-    fade("article-embeded",30)
 
     let embedSources = {
         home: {
@@ -49,7 +48,7 @@ window.onload = function () {
         let varId=embedSources[menu]["id"];
         let varSrc=embedSources[menu]["src"];
         let changeSrc = () => {
-/*            document.getElementById("article-embeded").style.opacity=0;*/
+            document.getElementById("article-embeded").style.opacity=0;
             document.getElementById("article-embeded").setAttribute("src", varSrc);
             fade("article-embeded",30)
         }
