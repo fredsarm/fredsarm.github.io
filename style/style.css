@@ -2,13 +2,14 @@
 
 /*---------------------------------------------------
   GENERAL STYLE
----------------------------------------------------*/  
+---------------------------------------------------*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
+
 body {
     margin: 0;
     background-color: #272727;
@@ -17,24 +18,33 @@ body {
     border: 0;
     margin: 0;
     width: 100%;
-/*    opacity: 0.1; /*javascript performs a fadein*/
+    /*    opacity: 0.1; /*javascript performs a fadein*/
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Gruppo', cursive;
     font-weight: bold;
     letter-spacing: 0.06rem;
 }
+
 h1 {
     font-size: 1.8rem;
-    text-align:center;
+    text-align: center;
     margin: 0.5rem 0 1.5rem 0;
 }
+
 h2 {
     font-size: 1.3rem;
     text-align: left;
     margin: 0.5rem 0 1.5rem 0;
 }
-p, li {
+
+p,
+li,
+label,
+input {
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
     font-size: 0.95rem;
@@ -42,35 +52,40 @@ p, li {
     margin: 0.5rem 0 0.8rem 0;
     border: 0;
 }
+
 a {
     text-decoration: none;
     color: #b6cce2;
 }
+
 a:hover {
     color: rgb(14, 165, 79);
 }
+
 .imgarticle {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;}
+    width: 50%;
+}
 
 
 /*---------------------------------------------------
   SPECIFIC STYLE
----------------------------------------------------*/  
+---------------------------------------------------*/
 
 
-header{
-    display:inline-block;
+header {
+    display: inline-block;
     top: 0;
     text-align: left;
     background-color: #585858;
-    width:100%;
+    width: 100%;
     z-index: 10;
     padding: 0.5rem 0 0.5rem;
-    position:fixed;
+    position: fixed;
 }
+
 #logo {
     display: inline-block;
     padding: 0 0 0 0.8rem;
@@ -80,49 +95,56 @@ header{
     color: #e6e6e6;
     text-shadow: 2px 4px 3px rgb(0, 0, 0);
     text-decoration: none;
-    text-align:center;
+    text-align: center;
     vertical-align: middle;
     margin: 0;
 }
+
 #logo:hover {
     cursor: pointer;
     color: rgb(14, 165, 79);
 }
+
 #menu {
     display: inline-block;
     padding: 0 0 0 0;
     min-width: 21.5rem;
-    vertical-align:middle;
-    text-align:center;
+    vertical-align: middle;
+    text-align: center;
 
-}  
+}
+
 #menu p {
     display: inline-block;
-    padding: 0 0.5rem 0 0.5rem   ;
+    padding: 0 0.5rem 0 0.5rem;
     font-family: 'Gruppo', cursive;
     font-weight: bold;
     font-size: 1.3rem;
     color: #b6cce2;
     margin: 0.5rem 0 0 0;
 }
+
 #menu p:hover {
     color: rgb(14, 165, 79);
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #divcreatelinebreak {
     max-height: 4.5rem;
     min-height: 3rem;
 }
+
 .createlinebreak {
     display: inline-block;
     padding: 0;
     border: 0;
-    min-width:19.7rem;
-    max-width:19.7rem;
+    min-width: 19.7rem;
+    max-width: 19.7rem;
     font-size: 1.5rem;
 }
+
 main {
-    display:block;
+    display: block;
     position: relative;
     min-width: 24.5rem;
     text-align: left;
@@ -130,21 +152,24 @@ main {
     height: 100%;
     margin-top: 0.4rem;
 }
+
 #rightBar {
     display: inline-block;
     padding: 0.4rem;
-    vertical-align:top;
-}       
+    vertical-align: top;
+}
+
 #rightBar h2 {
-    display:block;
+    display: block;
     text-align: left;
     font-family: 'Gruppo', cursive;
     font-weight: bold;
     font-size: 1.5rem;
     margin: 0.5rem 0 1rem 0;
 }
+
 #rightBar h3 {
-    display:block;
+    display: block;
     text-align: left;
     color: #b6cce2;
     font-family: 'Gruppo', cursive;
@@ -152,10 +177,12 @@ main {
     font-size: 1.3rem;
     margin: 0.5rem 0 1rem 0;
 }
+
 #rightBar h3:hover {
     cursor: pointer;
     color: rgb(14, 165, 79);
 }
+
 embed {
     display: inline-block;
     align-items: center;
@@ -165,6 +192,7 @@ embed {
     max-width: 33rem;
     margin-bottom: 1rem;
 }
+
 article {
     display: block;
     padding: 0.5rem 0.5rem 2rem 0.5rem;
@@ -172,16 +200,18 @@ article {
     align-items: center;
     background-color: rgb(27, 27, 27);
 }
+
 #fredsphoto {
-    float:right;
+    float: right;
     margin: 0 0 0 0.5rem;
-    border:1px solid rgb(72, 71, 71);  
+    border: 1px solid rgb(72, 71, 71);
     height: 6rem;
     background-color: rgb(110, 93, 71);
-} 
-footer{
+}
+
+footer {
     display: block;
-    position:fixed;
+    position: fixed;
     bottom: 0;
     z-index: 10;
 
@@ -192,27 +222,78 @@ footer{
     text-align: left;
     width: 100%;
 }
+
 .socialmediaicon {
-    width:2.5rem;
+    width: 2.5rem;
     opacity: 50%;
     margin: 0 0.5rem 0 0.5rem;
-   }
+}
 
 code {
-color: #339430;
-background-color: #262525;
+    color: #339430;
+    background-color: #262525;
 }
 
 /* Style the scrollbar background */
 ::-webkit-scrollbar {
-    background:#585858;
-  }
-  
-  /* Style the scrollbar handle */
-  ::-webkit-scrollbar-thumb {
+    background: #585858;
+}
+
+/* Style the scrollbar handle */
+::-webkit-scrollbar-thumb {
     background: rgb(54, 54, 54);
-  }
-    /* --------------------------------------------------------
+}
+
+/*---------------------------------------------------\
+| CONTACT FORM STYLE                                 |
+\---------------------------------------------------*/
+
+
+
+
+
+
+#form-div {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#form-div h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    width: 97%;
+    padding: 0.2rem;
+    margin: 0.5rem;
+}
+
+input {
+    display: block;
+    width: 97%;
+    padding: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+textarea {
+    display: block;
+    height: 6rem;
+    width: 97%;
+    padding: 0.2rem;
+}
+
+#submit-form {
+    display: block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+/* --------------------------------------------------------
     colors for testing 
     remove the comment below for testing each html element 
    -------------------------------------------------------- */
@@ -259,3 +340,5 @@ article h1 {
 article h2 {
     background-color: rgb(141, 169, 0);
 }5
+
+*/
