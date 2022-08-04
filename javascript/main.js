@@ -1,30 +1,29 @@
-function fade(id,interval) {
+function fade(id, interval) {
     let i = 0;
     let elem = document.getElementById(id);
     elem.style.opacity = 0;
-    let k = window.setInterval(function() {
-    if (i >= 10) {
-        clearInterval(k);
-    } else {
-        elem.style.opacity = i / 10;
-        i++;
-    }
+    let k = window.setInterval(function () {
+        if (i >= 10) {
+            clearInterval(k);
+        } else {
+            elem.style.opacity = i / 10;
+            i++;
+        }
     }, interval);
 };
-window.onload = function () { 
-/*    fade("tudo",20);*/
+window.onload = function () {
 
     let embedSources = {
         home: {
-            id:"logo",
+            id: "logo",
             src: "./articles/home.html"
         },
         projects: {
-            id:"link-projects",
-            src:"./articles/projects.html"
+            id: "link-projects",
+            src: "./articles/projects.html"
         },
         bio: {
-            id:"link-bio",
+            id: "link-bio",
             src: "./articles/bio.html"
         },
         contact: {
@@ -33,25 +32,28 @@ window.onload = function () {
         },
         skills: {
             id: "link-skils",
-            src:"./articles/skills.html"
+            src: "./articles/skills.html"
         },
         technologies: {
             id: "link-technologies",
             src: "./articles/technologies.html"
         },
         codefeatures: {
-            id: "link-report",
+            id: "link-code-features",
             src: "./articles/codefeatures.html"
-        } 
+        }
     }
     for (let menu in embedSources) {
-        let varId=embedSources[menu]["id"];
-        let varSrc=embedSources[menu]["src"];
+
+        let varId = embedSources[menu]["id"];
+        let varSrc = embedSources[menu]["src"];
+
         let changeSrc = () => {
-            document.getElementById("article-embeded").style.opacity=0;
+            document.getElementById("article-embeded").style.opacity = 0;
             document.getElementById("article-embeded").setAttribute("src", varSrc);
-            fade("article-embeded",60)
+            fade("article-embeded", 60)
         }
+
         document.getElementById(varId).addEventListener("click", changeSrc);
     }
 }
