@@ -40,7 +40,7 @@ window.onload = function () {
         },
         codefeatures: {
             id: "link-code-features",
-            src: "./articles/codefeatures.html"
+            src: "./articles/code-features.html"
         }
     }
     for (let menu in embedSources) {
