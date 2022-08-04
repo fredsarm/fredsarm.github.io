@@ -39,9 +39,9 @@ window.onload = function () {
             id: "link-technologies",
             src: "./articles/technologies.html"
         },
-        report: {
+        codefeatures: {
             id: "link-report",
-            src: "./articles/report.html"
+            src: "./articles/codefeatures.html"
         } 
     }
     for (let menu in embedSources) {
