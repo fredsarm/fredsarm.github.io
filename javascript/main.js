@@ -12,7 +12,7 @@ function fade(id,interval) {
     }, interval);
 };
 window.onload = function () { 
-    fade("tudo",20);
+/*    fade("tudo",20);*/
 
     let embedSources = {
         home: {
