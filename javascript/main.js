@@ -50,7 +50,7 @@ window.onload = function () {
         let changeSrc = () => {
             document.getElementById("article-embeded").style.opacity=0;
             document.getElementById("article-embeded").setAttribute("src", varSrc);
-            fade("article-embeded",30)
+            fade("article-embeded",60)
         }
         document.getElementById(varId).addEventListener("click", changeSrc);
     }
