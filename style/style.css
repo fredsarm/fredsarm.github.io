@@ -7,18 +7,17 @@
 * {
     margin: 0;
     padding: 0;
+    color: #d5d1d1;
     border: 0;
 }
 
 body {
     margin: 0;
     background-color: #272727;
-    color: #d5d1d1;
     padding: 0;
     border: 0;
     margin: 0;
     width: 100%;
-    /*    opacity: 0.1; /*javascript performs a fadein*/
 }
 
 h1,
@@ -214,10 +213,8 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 10;
-
     margin: 0;
     padding: 0.4rem;
-
     background-color: #272727;
     text-align: left;
     width: 100%;
@@ -245,18 +242,14 @@ code {
 }
 
 /*---------------------------------------------------\
-| CONTACT FORM STYLE                                 |
+| CONTACT FORM                                       |
 \---------------------------------------------------*/
-
-
-
-
-
 
 #form-div {
     display: block;
     margin: auto;
     width: 60%;
+    text-align: center;
 }
 
 #form-div h2 {
@@ -264,34 +257,52 @@ code {
 }
 
 label {
-    display: block;
+    display: inline-block;
     width: 97%;
     padding: 0.2rem;
     margin: 0.5rem;
 }
 
-input {
-    display: block;
+input,
+textarea {
+    margin-top: 0.2rem;
+    display: inline-block;
+    background-color: #272727;
     width: 97%;
     padding: 0.2rem;
-    margin-top: 0.2rem;
 }
 
 textarea {
-    display: block;
-    height: 6rem;
-    width: 97%;
-    padding: 0.2rem;
+    height: 10rem;
 }
 
+/* ------------ SUBMIT  BUTTON----------------*/
 #submit-form {
     display: block;
     width: 30%;
     margin: auto;
     text-align: center;
     margin-top: 1rem;
+    border: 1px solid gray;
+    background-color: #585858;
 
 }
+
+#submit-form:hover {
+    color: rgb(14, 165, 79);
+    cursor: pointer;
+}
+
+#submit-form:active {
+    background-color: rgb(46, 84, 84);
+    color: rgb(62, 205, 124);
+    border-radius: 0;
+}
+
+/* ------------------------------------------*/
+
+
+
 
 /* --------------------------------------------------------
     colors for testing 
