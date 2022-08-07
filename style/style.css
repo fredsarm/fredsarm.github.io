@@ -43,7 +43,9 @@ h2 {
 p,
 li,
 label,
-input {
+input,
+ol,
+ul {
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
     font-size: 0.95rem;
@@ -51,6 +53,27 @@ input {
     margin: 0.5rem 0 0.8rem 0;
     border: 0;
 }
+
+ol,
+ul {
+    font-weight: bold;
+}
+
+ol li,
+ul li {
+    font-weight: normal;
+    list-style-type: style type;
+    margin: 0 0 0 2em;
+
+}
+
+ul li:first-child {
+    margin-top: 0.3rem;
+}
+
+
+
+
 
 a {
     text-decoration: none;
@@ -221,7 +244,7 @@ footer {
 }
 
 .socialmediaicon {
-    width: 2.5rem;
+    width: 2.1rem;
     opacity: 50%;
     margin: 0 0.5rem 0 0.5rem;
 }
@@ -285,7 +308,6 @@ textarea {
     margin-top: 1rem;
     border: 1px solid gray;
     background-color: #585858;
-
 }
 
 #submit-form:hover {
@@ -298,10 +320,6 @@ textarea {
     color: rgb(62, 205, 124);
     border-radius: 0;
 }
-
-/* ------------------------------------------*/
-
-
 
 
 /* --------------------------------------------------------
