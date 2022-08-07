@@ -41,13 +41,13 @@ h2 {
 }
 
 p,
-li,
 label,
 input,
 ol,
-ul {
+ul,
+li {
     font-family: 'Quicksand', sans-serif;
-    text-align: justify;
+    text-align: left;
     font-size: 0.95rem;
     letter-spacing: 0.05rem;
     margin: 0.5rem 0 0.8rem 0;
@@ -64,16 +64,11 @@ ul li {
     font-weight: normal;
     list-style-type: style type;
     margin: 0 0 0 2em;
-
 }
 
 ul li:first-child {
     margin-top: 0.3rem;
 }
-
-
-
-
 
 a {
     text-decoration: none;
@@ -133,7 +128,6 @@ header {
     min-width: 21.5rem;
     vertical-align: middle;
     text-align: center;
-
 }
 
 #menu p {
@@ -277,6 +271,7 @@ code {
 
 #form-div h2 {
     text-align: center;
+    /*The general rule for h2 is left"*/
 }
 
 label {
