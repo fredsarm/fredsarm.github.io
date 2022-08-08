@@ -213,6 +213,7 @@ embed {
     min-width: 23rem;
     max-width: 33rem;
     margin-bottom: 1rem;
+    opacity: 80%;
 }
 
 article {
@@ -244,8 +245,9 @@ footer {
 }
 
 #enthusiasm {
-    margin: 0 0 1rem 1rem;
+    margin: 0 0 1rem 3rem;
     text-align: left;
+    font-size: 0.8rem;
 }
 
 .socialmediaicon {
