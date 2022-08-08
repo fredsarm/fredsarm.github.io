@@ -11,6 +11,14 @@ function fade(id, interval) {
         }
     }, interval);
 };
+
+
+
+
+
+
+
+
 window.onload = function () {
 
     let embedSources = {

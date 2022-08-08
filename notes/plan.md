@@ -1,6 +1,6 @@
 ## Objective
 
-Offer a way to show my work to to people of any place, giving information about it, describing projects I've accomplished and providing a way to contact me.
+Offer a way to show my work to people of any place, giving information about it, describing projects I've accomplished and providing a way to contact me.
 
 ***
 ## Pages
@@ -24,7 +24,7 @@ Offer a way to show my work to to people of any place, giving information about 
             - facebook;
             - Github;
             - GitHub for this project source code;
-            - The frase *Made with enthusiasm in Brasilia* 🤓.
+            - The phrase *Made with enthusiasm in Brasilia* 🤓.
 2.  ### Contact page containg a form with the following fields:
     1.  Name (mandatory);
     2.  email (mandatory);
