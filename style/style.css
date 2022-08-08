@@ -237,6 +237,12 @@ footer {
     width: 100%;
 }
 
+#enthusiasm {
+    font-style: italic;
+    margin: 0 0 1rem 3rem;
+    text-align: left;
+}
+
 .socialmediaicon {
     width: 2.1rem;
     opacity: 50%;
