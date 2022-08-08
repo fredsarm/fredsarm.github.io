@@ -316,6 +316,13 @@ textarea {
     border-radius: 0;
 }
 
+#responsivemobile,
+#responsivepc {
+    text-align: center;
+    height: 18rem;
+    margin: auto;
+
+}
 
 /* --------------------------------------------------------
     colors for testing 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,41 @@
   <link rel="stylesheet" href="../style/style.css">
   <title>Code Features</title>
 </head>
+
 <body>
   <article id="embeded-article">
-    <h1>Code Features</h1> 
-    </article>
+    <h1>Code Features</h1>
+    <h2>Resposive</h2>
+    <p> I implemented a responsive code using only display property block and inline-block.</p>
+    <img id="responsivepc" src="../media/responsivepc.png" alt="Print of the screen rendered in a PC">
+    <img id="responsivemobile" src="../media/responsivemobile.jpeg" alt="Print of the screen rendered in a Mobile.">
+
+    <h2>Stable</h2>
+    <p>The main page, index.html, is the only one to be loaded. Other contents apears in an <code>embeded</code>
+      element preventing reloads of the entire website on each click. This aproach avoid blinks while browsing and
+      reduce
+      the amount of data transferig through the net.</p>
+    <p>The menu behavior was set up with JavaScript. There is an
+      object storing the menus, as properties, and storing
+      another object with 2 properies each one: the id and src attribute.
+    </p>
+    <p> A for...in statement iterates over the
+      object and add an event listener for each menu.
+    </p>
+    <p>Before changing src propery, it turns the content transparent and gradually fade it in. This creates a soft
+      effects to the transitions.</p>
+
+    <h2>Constrast</h2>
+    <p>The colors ware checked with <a href="https://webaim.org/resources/contrastchecker/" target="_blank">Contrast
+        Checker</a> and
+      distinguish
+      all the
+      elements.</p>
+    <h2>Whatsapp</h2>
+    <p>The way of contact is whatsapp, not email. JavaScript open the app with a link created with the address string
+      concatenated
+      with the message wrote in text field.</p>
+  </article>
 </body>
+
 </html>
