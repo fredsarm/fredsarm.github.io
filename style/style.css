@@ -245,7 +245,7 @@ footer {
 }
 
 #enthusiasm {
-    margin: 0 0 1rem 3rem;
+    margin: 0 0 1rem 1rem;
     text-align: left;
     font-size: 0.8rem;
 }
@@ -263,12 +263,12 @@ code {
 
 /* Style the scrollbar background */
 ::-webkit-scrollbar {
-    background: #585858;
+    background: rgb(54, 54, 54);
 }
 
 /* Style the scrollbar handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(54, 54, 54);
+    background: #585858;
 }
 
 /*---------------------------------------------------\
@@ -336,54 +336,3 @@ textarea {
     margin: auto;
 
 }
-
-
-/* --------------------------------------------------------
-    colors for testing 
-    remove the comment below for testing each html element 
-   -------------------------------------------------------- */
-/*
-
-body {
-    background-color: rgb(158, 84, 0);
-}
-header {
-    background-color: rgb(200, 255, 3);
-    color: #FFFFFF;
-}
-#logo {
-    background-color: rgb(118, 118, 119);
-    color: black;
-}
-header nav {
-    background-color: rgb(177, 176, 179);
-    color: black;
-}
-header nav a {
-    background-color: rgb(248, 248, 248);
-    color: black;
-}
-main {
-    background-color: rgb(0, 167, 64);
-}
-article     {
-    background-color: rgb(25, 0, 255);
-}
-#rightBar {
-    background-color: red;
-}
-#rightBar h3{
-    background-color: rgb(255, 98, 0);    
-}
-#rightBar h2 {
-    background-color: rgb(247, 19, 255);    
-}
-article h1 {
-    background-color: rgb(0, 255, 247);
-    color: #262525;
-}
-article h2 {
-    background-color: rgb(141, 169, 0);
-}5
-
-*/
