@@ -171,7 +171,6 @@ main {
     min-width: 24.5rem;
     text-align: left;
     width: 100%;
-    height: 100%;
     margin-top: 0.4rem;
 }
 
@@ -218,7 +217,7 @@ embed {
 
 article {
     display: block;
-    padding: 0.5rem 0.5rem 2rem 0.5rem;
+    padding: 0.5rem 0.5rem 4rem 0.5rem;
     min-width: 19rem;
     align-items: center;
     background-color: rgb(27, 27, 27);
