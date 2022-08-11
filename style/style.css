@@ -211,7 +211,7 @@ main {
 embed {
     display: inline-block;
     align-items: center;
-    height: 43rem;
+    height: 40rem;
     width: 100%;
     min-width: 23rem;
     max-width: 33rem;
@@ -221,7 +221,7 @@ embed {
 
 article {
     display: block;
-    padding: 0.5rem 0.5rem 4rem 0.5rem;
+    padding: 0.5rem 0.5rem 3rem 0.5rem;
     min-width: 19rem;
     align-items: center;
     background-color: rgb(27, 27, 27);
